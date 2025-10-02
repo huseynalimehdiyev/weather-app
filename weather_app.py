@@ -246,7 +246,7 @@ def times():
 
 times()
 
-stop = Image.open("Cimages/stoppictureproject.jpg")
+stop = Image.open("images/stoppictureproject.jpg")
 play = Image.open("images/starticonproject.jpg")
 
 play = play.resize((30,30))
