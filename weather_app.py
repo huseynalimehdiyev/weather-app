@@ -166,7 +166,7 @@ root.iconbitmap(r"images/sunicon.ico")
 root.grid_columnconfigure(1, weight=1)
 root.grid_rowconfigure(0, weight=0)
 
-foto = Image.open(r"C:\\Users\\user\\Downloads\\weathericon.png")
+foto = Image.open(r"images/weathericon.png")
 foto = foto.resize((1920, 1080), Image.Resampling.LANCZOS)
 pfoto = ImageTk.PhotoImage(foto)
 
